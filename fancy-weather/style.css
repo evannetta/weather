@@ -1,0 +1,60 @@
+body {
+  min-width: 300px;
+  max-width: 1024px;
+  margin: 50px 10px;
+}
+#wrapper {
+  background-repeat: no-repeat;
+  height: 500px;
+  padding: 50px;
+}
+button {
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+.button-area {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.search-area{
+  display: flex;
+  width: 280px;
+  justify-content: space-around;
+}
+input{
+  padding-left: 5px;
+}
+.controls-block{
+  display: flex;
+  justify-content: space-between;
+}
+.location-area{
+  width: 500px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(65, 63, 63);
+  margin: 50px 0 0 0;
+}
+p{
+  margin: 0;
+}
+.date-area{
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(65, 63, 63);
+  display: flex;
+  justify-content: space-between;
+}
+.weather-area{
+  width: 250px;
+  font-size: 200px;
+  font-weight: bold;
+  color: rgb(65, 63, 63);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
