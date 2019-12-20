@@ -19,42 +19,46 @@ button {
   width: 200px;
   justify-content: space-between;
 }
-.search-area{
+.search-area {
   display: flex;
   width: 280px;
   justify-content: space-around;
 }
-input{
+input {
   padding-left: 5px;
 }
-.controls-block{
+.controls-block {
   display: flex;
   justify-content: space-between;
 }
-.location-area{
+.location-area {
   width: 500px;
-  font-size: 40px;
+  font-size: 2em;
   font-weight: bold;
   color: rgb(65, 63, 63);
   margin: 50px 0 0 0;
 }
-p{
+p {
   margin: 0;
 }
-.date-area{
+.date-area {
   width: 250px;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: bold;
   color: rgb(65, 63, 63);
   display: flex;
   justify-content: space-between;
 }
-.weather-area{
+.weather-area {
   width: 250px;
-  font-size: 200px;
+  font-size: 4em;
   font-weight: bold;
   color: rgb(65, 63, 63);
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+}
+#summary{
+  font-size: 0.25em;
+  width: 200px;
 }

@@ -65,7 +65,7 @@ function createLocationArea() {
   weatherBlock.appendChild(locationArea);
 
   const locationText = document.createElement("p");
-  locationText.id = 'location-text';
+  locationText.id = "location-text";
   locationArea.appendChild(locationText);
 }
 function createDateArea() {
@@ -91,6 +91,8 @@ function createWeatherArea() {
   const temperature = document.createElement("p");
   temperature.id = "temperature";
   weatherArea.appendChild(temperature);
- 
- 
+
+  const summary = document.createElement("p");
+  summary.id = "summary";
+  weatherArea.appendChild(summary);
 }

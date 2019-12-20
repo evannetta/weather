@@ -7,17 +7,15 @@ export function onClicktemperatureButton(event) {
   event.target.innerText = unit === "F" ? "C" : "F";
   const temperature = document.getElementById('temperature');
   if(unit === 'C'){
-    temperature.innerText = fahrenheitToCelsius(parseInt(temperature.innerText)) + ` °${unit}`;
+    temperature.innerText = fahrenheitToCelsius(parseFloat(temperature.innerText)) + ` °${unit}`;
   }
   if(unit === 'F'){
-    temperature.innerText = celsiusToFahrenheit(parseInt(temperature.innerText)) + ` °${unit}`;
+    temperature.innerText = celsiusToFahrenheit(parseFloat(temperature.innerText)) + ` °${unit}`;
   }
-  
-  
 }
 export function onClickLangButton() {
   const unit = event.target.innerText;
   event.target.innerText = unit === "EN" ? "UK" : "EN";
   setDate();
 }
-export function onClickSearchButton() {}
+
